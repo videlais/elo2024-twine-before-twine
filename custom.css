@@ -1,0 +1,19 @@
+body {
+    /* Set font 120% larger than the default */
+    font-size: 1em;
+}
+
+a {
+    /* Set link to dark blue */
+    color: #0000FF !important;
+}
+
+.pagination-item--previous {
+    margin-left: 4em;
+    margin-top: 0.5em;
+}
+
+.pagination-item--next {
+    margin-right: 4em;
+    margin-top: 0.5em;
+}
