@@ -1,11 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 body {
     /* Set font 120% larger than the default */
     font-size: 1em;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
 }
 
 a {
     /* Set link to dark blue */
     color: #0000FF !important;
+}
+
+#main > p {
+    font-size: 2.3em;
+    line-height: 1.6;
+}
+
+#main > h1 {
+    font-size: 4em;
+    line-height: 1.6;
+}
+
+#main > h2 {
+    font-size: 3.5em;
+    line-height: 1.6;
+}
+
+.markdown-section h2 {
+    font-size: 2.5rem;
+    margin: 45px 0 0.8rem;
+  }
+
+.markdown-section ul, .markdown-section ol {
+    font-size: 2.3em;
+    line-height: 1.6;
+}
+
+.markdown-section strong {
+    color: #020514;
+    font-weight: 900;
 }
 
 .pagination-item--previous {
@@ -17,3 +51,5 @@ a {
     margin-right: 4em;
     margin-top: 0.5em;
 }
+
+
