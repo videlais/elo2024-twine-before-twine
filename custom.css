@@ -32,13 +32,13 @@ a {
     margin: 45px 0 0.8rem;
   }
 
-.markdown-section ul, .markdown-section ol {
+.markdown-section ul {
     font-size: 2.3em;
     line-height: 1.6;
 }
 
 .markdown-section strong {
-    color: #020514;
+    color: #2c3e90;
     font-weight: 900;
 }
 
@@ -52,4 +52,11 @@ a {
     margin-top: 0.5em;
 }
 
+.slide-right {
+    padding-left: 2em;
+}
 
+img {
+    max-width: 50%;
+    max-height: 50%;
+}
